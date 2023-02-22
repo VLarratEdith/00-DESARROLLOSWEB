@@ -7,14 +7,11 @@
     <title>Curriculum Vitae Veronica Larrat</title>
     <link rel="icon" type="image/x-icon" href="./Linkeados2/1 FavicomVLarrat5.png">
     <link rel="stylesheet" type="text/css" href="/WEB_CV_VLarrat2RW/estilos2.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
     <!--Tipografias Fuentes 1-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <!--Tipografias Fuentes 2-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <!-- OpenGraph -->
     <meta property="og:url" content="http://127.0.0.1:5500/WEB_CV_VLarrat2RW/index.html "/>
     <meta property="og:title" content="Curriculum Vitae Veronica Larrat"/>
@@ -47,16 +44,20 @@
             </div>
         </aside>
     </header>
-    <section class="Menu">    
-        <nav id="Menu">
-            <ul class="Control">
-                <li id="Control1"><a href="#Formación Académica">Formación Académica</a></li>
-                <li id="Control2"><a href="#Trayectoria Laboral">Trayectoria Laboral</a></li>
-                <li id="Control3"><a href="#Formación Complementaria">Formación Complementaria</a></li>
-                <li id="Control4"><a href="#Aptitudes">Aptitudes</a></li>
-                <li id="Control5"><a href="#Competencias">Competencias</a></li>
-                <li id="Control6"><a href="#Software">Software</a></li>
-                <li id="Control7"><a href="#Idiomas">Idiomas</a></li>
+    <section class="Menu"> 
+
+       <span class="nav-bar" id="btnMenu"><i class="fa-solid fa-bars"></i> Menu</span>   
+        
+        <nav class="main-nav" id="main-nav">
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="#Formación Académica" class="menu__link">Formación Académica</a></li>
+                <li class="menu__item"><a href="#Trayectoria Laboral" class="menu__link">Trayectoria Laboral</a></li>
+                <li class="menu__item"><a href="#Formación Complementaria" class="menu__link">Formación Complementaria</a></li>
+                <li class="menu__item"><a href="#Aptitudes"class="menu__link" >Aptitudes</a></li>
+                <li class="menu__item"><a href="#Competencias" class="menu__link">Competencias</a></li>
+                <li class="menu__item"><a href="#Software" class="menu__link">Software</a></li> 
+                <li class="menu__item"><a href="#Idiomas" class="menu__link" >Idiomas</a></li>
+                <li class="menu__item"><a href="#Contacto" class="menu__link" >Contacto</a></li>
             </ul>
         </nav>
     </section>
@@ -69,19 +70,19 @@
         Dispuesta a aportar una mirada estratégica y lograr resultados beneficiosos y en corto 
         plazo, contribuyendo al logro de los objetivos empresariales. </p>  
     </section>
-    <section class="# Formación Académica"> 
+    <section class="Formación Académica"> 
         <a name="Formación Académica" id="Formación Académica"></a>
         <h2>Formación Académica</h2>
             <ul class="FAcademica">
-                <li id="F1"><strong>Postgrado en Dirección Estratégica de Pymes Industriales.</strong> Orientación Madera y Mueble. Universidad Nacional General Sarmiento y FAIMA (Argentina). 2018.</li>
-                <li id="F4"><strong>Convalidación Título en España:</strong> Credencial Nº 2008/H00442-RS 16/01/2008. 2008.</li>
-                <li id="F2"><strong>Master en Dirección y Gestión de Pymes.</strong> Grupo Gates, EFEM (España). 2007. </li>
-                <li id="F3"><strong>Especialización en Tratamientos de la Madera.</strong>. Universidad Austral de Chile (Chile). 1997</li> 
-                <li id="F4"><strong>Ingeniería Técnica Forestal: Explotaciones Forestales.</strong> Universidad Nacional del Comahue (Argentina). 1996.</li>    
+                <li id="F1"><i class="fa-sharp fa-solid fa-seedling"></i><strong>  Postgrado en Dirección Estratégica de Pymes Industriales.</strong> Orientación Madera y Mueble. Universidad Nacional General Sarmiento y FAIMA (Argentina). 2018.</li>
+                <li id="F4"><i class="fa-sharp fa-solid fa-seedling"></i><strong>  Convalidación Título en España:</strong> Credencial Nº 2008/H00442-RS 16/01/2008. 2008.</li>
+                <li id="F2"><i class="fa-sharp fa-solid fa-seedling"></i><strong>  Master en Dirección y Gestión de Pymes.</strong> Grupo Gates, EFEM (España). 2007. </li>
+                <li id="F3"><i class="fa-sharp fa-solid fa-seedling"></i><strong>  Especialización en Tratamientos de la Madera.</strong>. Universidad Austral de Chile (Chile). 1997</li> 
+                <li id="F4"><i class="fa-sharp fa-solid fa-seedling"></i><strong>  Ingeniería Técnica Forestal: Explotaciones Forestales.</strong> Universidad Nacional del Comahue (Argentina). 1996.</li>    
             </ul>
         
     </section>
-    <section class="# Trayectoria Laboral">
+    <section class="Trayectoria Laboral">
         <a name="Trayectoria Laboral" id="Trayectoria Laboral"></a>
         <h2>Trayectoria Laboral</h2>
             <table Class="Trayectoria">
@@ -199,14 +200,14 @@
         <a name="Formación Complementaria" id="Formación Complementaria"></a>
         <h2>Formación Complementaria</h2>
             <ul class="FComplementaria">
-                <li id="FC"><strong>Industrias 4.0:</strong> Business Intelligence y Big data. La Ciencia de datos. Python. Impresión 3D. Nanogrado Profesionales de la Construcción 4.0.</li>
-                <li id="FC"><strong>Economía verde:</strong> Economía Circular aplicada a la empresa. Gestión Ambiental y Energética. Bioeconomía: Biorrefinerías, Biomateriales, Bioinsumos, Bioenergías y Bioalimentos.</li>
-                <li id="FC"><strong>I+D+i (Investigación - Desarrollo - Innovación):</strong> Innovación Abierta y Vinculación. Metodologías Ágiles. Actualización y Formación Integral en Vinculación Tecnológica. Herramientas para la transformación. Gestión Empresarial de la innovación.</li>   
+                <li id="FC"><i class="fa-sharp fa-solid fa-leaf"></i><strong>  Industrias 4.0:</strong> Business Intelligence y Big data. La Ciencia de datos. Python. Impresión 3D. Nanogrado Profesionales de la Construcción 4.0.</li>
+                <li id="FC"><i class="fa-sharp fa-solid fa-leaf"></i><strong>  Economía verde:</strong> Economía Circular aplicada a la empresa. Gestión Ambiental y Energética. Bioeconomía: Biorrefinerías, Biomateriales, Bioinsumos, Bioenergías y Bioalimentos.</li>
+                <li id="FC"><i class="fa-sharp fa-solid fa-leaf"></i><strong>  I+D+i (Investigación - Desarrollo - Innovación):</strong> Innovación Abierta y Vinculación. Metodologías Ágiles. Actualización y Formación Integral en Vinculación Tecnológica. Herramientas para la transformación. Gestión Empresarial de la innovación.</li>   
             </ul>
         
     </section>
-    <section class="Otros">
-        <h2>Otros</h2>
+    <section class="Habilidades">
+        <h2>Habilidades</h2>
         <a name="Aptitudes" id="Aptitudes"></a>
         <h3>Aptitudes:</h3>
             <ul class="Aptitudes">
@@ -243,10 +244,9 @@
                 <li id="I2"><strong>Inglés:</strong> B1 - British Council.</li>
             </ul>
     </section>
-    <footer class="footer">
+    <footer id="Contacto">
         <p></p>
-   
-        <section class="Contacto">
+       <section class="Contacto">
             <h2>Contacto</h2>  
                 <form class="FContacto" action="/action_page.php" method="post" name="Contacto">
                     <label id="L1">*</label>
@@ -274,16 +274,15 @@
         </section>
         <section class="LogoLegal">
             <img src="./Linkeados2/1 FavicomVLarrat5.png">
-            <p id="CVaño)">Curriculum Vitae Verónica © 2023 - <?php echo date('Y'); ?></p>
-            <p id="Derechos"><a href="https://copyrightservice.net/es/copyright_notice" title="Avisos de derechos de autor">Avisos de derechos de autor</a> - Internacional De Derechos De Autor (ICS)</p>
+            <p id="CV">Curriculum Vitae Verónica © 2023</p>
+            <div id="Fecha_Actual"></p></div>
+            <p id="Derechos"><a href="https://copyrightservice.net/es/copyright_notice" title="Avisos de derechos de autor">Avisos de derechos de autor </a> - Internacional De Derechos De Autor (ICS).</p>
+            <div id="Boton"> <button onclick="window.print()" type="button" ><strong>Imprimir CV</strong></button></div>
+            
         </section>
     </footer>
     <hr>
-
-<div class="testeo">
-<p>Esto es una prueba</p>
-<p>A ver que pasa</p>
-
-</div>
+<script src="Funciones.js"></script> 
 </body>
 </html>
+
